@@ -1,17 +1,17 @@
 
 public class Adapted implements CoffeeMachine {
 
-	old theMachine;
+	Old theMachine;
 
-	public Adapted(old newCoffeeMachine) {
+	public  Adapted (Old newCoffeeMachine) {
 		theMachine = newCoffeeMachine;
 	}
 
-	public void chooseFirstSelection() {
-		theMachine.selectA();
+	public String chooseFirstSelection() {
+		return theMachine.selectA();
 	}
 
-	public void chooseSecondSelection() {
-		theMachine.selectB();
+	public String chooseSecondSelection() {
+		return theMachine.selectB();
 	}
 }

@@ -1,11 +1,13 @@
 
-public class old {
+public class Old {
 
-public void selectA() {
+public String selectA() {
 	System.out.println("A Selected");
+	return "A selected ";
 }
 
-	public void selectB() {
+	public String selectB() {
 	System.out.println("B Selected");
+	return "B selected";
 }
 }
